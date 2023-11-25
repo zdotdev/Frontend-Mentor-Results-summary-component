@@ -136,11 +136,15 @@ img{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .content{
         flex-direction: row;
         justify-content: center;
         height: 32rem;
+        width: fit-content;
+        border-radius: 4rem;
+        box-shadow: .8rem .8rem 4rem var(--Dark-gray-blue);
     }
     .results,
     .summary{
